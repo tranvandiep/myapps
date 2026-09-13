@@ -94,7 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         await navigator.clipboard.writeText(window.location.href);
         const originalText = btn.innerHTML;
-        btn.innerHTML = '✓ Đã sao chép liên kết';
+        const currentLang = window.getCurrentLanguage ? window.getCurrentLanguage() : 'en';
+        btn.innerHTML = currentLang === 'vi' ? '✓ Đã sao chép liên kết' : '✓ Link copied!';
         setTimeout(() => {
           btn.innerHTML = originalText;
         }, 2000);
