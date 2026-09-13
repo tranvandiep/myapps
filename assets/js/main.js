@@ -55,11 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. Table of Contents Active Link Highlight on Scroll
   const tocLinks = document.querySelectorAll('.toc-list a');
   if (tocLinks.length > 0) {
-    const headings = Array.from(document.querySelectorAll('.legal-content h2, .legal-content h3'));
-
     window.addEventListener('scroll', () => {
       let currentId = '';
-      headings.forEach(heading => {
+      const visibleHeadings = Array.from(document.querySelectorAll('.legal-content h2, .legal-content h3'))
+        .filter(h => h.offsetParent !== null);
+      
+      visibleHeadings.forEach(heading => {
         const top = heading.getBoundingClientRect().top;
         if (top <= 140) {
           currentId = heading.getAttribute('id');

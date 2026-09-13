@@ -260,6 +260,13 @@
   line-height: 1.7;
 }
 
+.legal-clause {
+  padding-left: 14px;
+  margin-bottom: 14px;
+  border-left: 2px solid var(--border-color);
+  color: var(--text-muted);
+}
+
 .legal-content a {
   color: var(--primary);
   text-decoration: underline;
