@@ -100,7 +100,6 @@
       contact_title: "Need Help or Have Feedback?",
       contact_desc: "Our development team is always here to listen and assist you promptly.",
       contact_email: "Email: ziczacgroup@gmail.com",
-      contact_phone: "Hotline: 1900 1001",
       breadcrumb_home: "Home",
       breadcrumb_legal: "Legal Policies",
 
@@ -221,7 +220,6 @@
       contact_title: "Bạn Cần Trợ Giúp Hoặc Có Góp Ý?",
       contact_desc: "Đội ngũ phát triển luôn sẵn lòng lắng nghe và hỗ trợ giải quyết mọi thắc mắc của bạn nhanh chóng.",
       contact_email: "Email: ziczacgroup@gmail.com",
-      contact_phone: "Hotline: 1900 1001",
       breadcrumb_home: "Trang chủ",
       breadcrumb_legal: "Chính sách pháp lý",
 

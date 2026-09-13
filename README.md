@@ -81,7 +81,6 @@ The portal provides transparent, store-compliant legal documents located in the 
 ### 📬 Contact & Support
 
 - **Support Email**: [ziczacgroup@gmail.com](mailto:ziczacgroup@gmail.com)
-- **Hotline**: `1900 1001`
 - **Location**: Hanoi, Vietnam
 
 ---
@@ -167,7 +166,6 @@ Website tích hợp đầy đủ hệ thống văn bản pháp lý minh bạch t
 ### 📬 Liên Hệ & Hỗ Trợ
 
 - **Email hỗ trợ**: [ziczacgroup@gmail.com](mailto:ziczacgroup@gmail.com)
-- **Hotline**: `1900 1001`
 - **Địa chỉ**: Hà Nội, Việt Nam
 
 ---
